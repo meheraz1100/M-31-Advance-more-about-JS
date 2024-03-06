@@ -26,5 +26,5 @@ const affordable = products.find(product => product.price < 50000);
 // console.log(affordable);
 
 // reduce
-const sum = products.reduce( (acum, current) => acum + current.price, 0);
+const sum = products.reduce((accum, current) => accum + current, 0);
 console.log(sum);
